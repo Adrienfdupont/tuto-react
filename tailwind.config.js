@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sacramento: ["Sacramento", "cursive"],
+        lato: ["Lato", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

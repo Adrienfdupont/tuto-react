@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Sacramento";
+  src: url("../public/fonts/Sacramento-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../public/fonts/Lato-Regular.ttf");
+}
