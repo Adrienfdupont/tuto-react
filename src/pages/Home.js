@@ -1,9 +1,9 @@
-import Navigation from "../components/Navigation";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
     <div>
-      <Navigation />
+      <Header />
       <h1>Page d'accueil</h1>
     </div>
   );
